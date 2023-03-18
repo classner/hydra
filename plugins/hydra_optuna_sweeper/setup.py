@@ -2,12 +2,11 @@
 # type: ignore
 from pathlib import Path
 
-from read_version import read_version
 from setuptools import find_namespace_packages, setup
 
 setup(
     name="hydra-optuna-sweeper",
-    version=read_version("hydra_plugins/hydra_optuna_sweeper", "__init__.py"),
+    version="1.3.0,
     author="Toshihiko Yanase, Hiroyuki Vincent Yamazaki",
     author_email="toshihiko.yanase@gmail.com, hiroyuki.vincent.yamazaki@gmail.com",
     description="Hydra Optuna Sweeper plugin",
