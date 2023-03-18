@@ -6,7 +6,7 @@ from setuptools import find_namespace_packages, setup
 
 setup(
     name="hydra-optuna-sweeper",
-    version="1.3.0,
+    version="1.3.0",
     author="Toshihiko Yanase, Hiroyuki Vincent Yamazaki",
     author_email="toshihiko.yanase@gmail.com, hiroyuki.vincent.yamazaki@gmail.com",
     description="Hydra Optuna Sweeper plugin",
